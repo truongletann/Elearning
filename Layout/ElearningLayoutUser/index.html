@@ -1,0 +1,745 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+    <header class="border-bottom">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="#">Elearning</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-collapse row" id="collapsibleNavId">
+                <div class="col-md-6">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 d-flex align-items-center justify-content-between">
+                        <li class="nav-item mr-3">
+                            <div class="dropdown">
+                                <a class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-th"></i>
+                                    <span class="ml-2">Categories</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa fa-laptop mr-1"></i>
+                                        <span>Development</span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa fa-camera-retro mr-1"></i>
+                                        <span>Photography</span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa fa-bar-chart mr-1"></i>
+                                        <span>Business</span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa fa-desktop mr-1"></i>
+                                        <span>IT & Software</span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa fa-handshake-o mr-1"></i>
+                                        <span>Marketing</span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa fa-music mr-1"></i>
+                                        <span>Music</span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa fa-pencil-square-o mr-1"></i>
+                                        <span>Design</span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa fa-cutlery mr-1"></i>
+                                        <span>Cooking</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item w-100">
+                            <form class="input-group nav-search">
+                                <input type="text" class="form-control" placeholder="Search courses">
+                                <div class="input-group-append">
+                                    <button class="btn bg-white text-danger"><i class="fa fa-search"></i></button>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-1 nav-cart">
+                    <i class="fa fa-shopping-basket"></i>
+                </div>
+                <div class="col-md-5 text-right" id="divSign">
+                    <button class="btn btn-outline-secondary" data-toggle="modal"
+                        data-target="#loginModal">Login</button>
+                    <button class="btn btn-danger ml-2" data-toggle="modal" data-target="#signUpModal" >Sign up</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- BEGIN BANNER -->
+    <section class="banner">
+        <div class="carousel">
+            <div class="carousel-caption">
+                <div class="container-fluid">
+                    <h2 class="caption-title">Learn on your schedule</h2>
+                    <div class="caption-text">
+                        Study any topic, anytime. Choose from thousands of expert-led courses now.
+                    </div>
+                    <form class="input-group nav-search caption-search">
+                        <input type="text" class="form-control" placeholder="What do you want to learn?">
+                        <div class="input-group-append">
+                            <button class="btn bg-white text-danger"><i class="fa fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="banner-bottom">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <span><i class="fa fa-cubes"></i></span>
+                        <div class="banner-bottom-text">
+                            <b>100,000 online courses</b>
+                            <div class="sub-title">
+                                Explore a variety of fresh topics
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <span><i class="fa fa-joomla"></i></span>
+                        <div class="banner-bottom-text">
+                            <b>Expert instruction</b>
+                            <div class="sub-title">
+                                Find the right instructor for you
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <span><i class="fa fa-gg"></i></span>
+                        <div class="banner-bottom-text">
+                            <b>Lifetime access</b>
+                            <div class="sub-title">
+                                Learn on your schedule
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END BANNER -->
+
+    <!-- BENGIN SELLER -->
+    <section class="best-seller">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 pb-4 pt-5">
+                    <div class="h-100 best-seller-sologan">
+                        <div class="px-5">
+                            <h5 class="font-weight-bold">The world’s largest selection of courses</h5>
+                            <p>Choose from over 100,000 online video courses with new additions published every month.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h3 class="title">Sale off</h3>
+                    <div class="row" id="dCourse">
+                        <div class="col-md-3" >
+                            <div class="course">
+                                <img src="./img/html-css.jpg" />
+                                <h6 class="course-title">The Complete Digital Marketing Course - 12 Courses in 1</h6>
+                                <small class="course-content">
+                                    Become an ethical hacker that can hack computer systems like black hat hackers and
+                                    secure
+                                    them like security experts.
+                                </small>
+                                <div class="course-price">
+                                    <span>1.200.000 đ</span>
+                                    <small>1.600.000 đ</small>
+                                </div>
+                                <div class="seller-label">Sale 10%</div>
+                                <div class="course-overlay">
+                                    <a href="details.html">
+                                        <h6 class="course-title">
+                                            The Complete Digital Marketing Course - 12 Courses in 1
+                                        </h6>
+                                        <div class="course-author">
+                                            <b>Lê Quang Song</b>
+                                            <span class="mx-1"> | </span>
+                                            <b>Development</b>
+                                        </div>
+                                        <div class="course-info">
+                                            <span><i class="fa fa-play-circle"></i> 180 lectures</span>
+                                            <span class="mx-1"> | </span>
+                                            <span><i class="fa fa-clock-o"></i> 40 hours</span>
+                                        </div>
+                                        <small class="course-content">
+                                            Become an ethical hacker that can hack computer systems like black hat
+                                            hackers and
+                                            secure them like security experts.
+                                        </small>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-danger text-white w-100">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="course">
+                                <img src="./img/course.jpg" />
+                                <h6 class="course-title">The Complete Digital Marketing Course - 12 Courses in 1</h6>
+                                <small class="course-content">
+                                    Become an ethical hacker that can hack computer systems like black hat hackers and
+                                    secure
+                                    them like security experts.
+                                </small>
+                                <div class="course-price">
+                                    <span>1.200.000 đ</span>
+                                    <small>1.600.000 đ</small>
+                                </div>
+                                <div class="seller-label">Sale 10%</div>
+                                <div class="course-overlay">
+                                    <a href="details.html">
+                                        <h6 class="course-title">
+                                            The Complete Digital Marketing Course - 12 Courses in 1
+                                        </h6>
+                                        <div class="course-author">
+                                            <b>Lê Quang Song</b>
+                                            <span class="mx-1"> | </span>
+                                            <b>Development</b>
+                                        </div>
+                                        <div class="course-info">
+                                            <span><i class="fa fa-play-circle"></i> 180 lectures</span>
+                                            <span class="mx-1"> | </span>
+                                            <span><i class="fa fa-clock-o"></i> 40 hours</span>
+                                        </div>
+                                        <small class="course-content">
+                                            Become an ethical hacker that can hack computer systems like black hat
+                                            hackers and
+                                            secure them like security experts.
+                                        </small>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-danger text-white w-100">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="course">
+                                <img src="./img/html-css.jpg" />
+                                <h6 class="course-title">The Complete Digital Marketing Course - 12 Courses in 1</h6>
+                                <small class="course-content">
+                                    Become an ethical hacker that can hack computer systems like black hat hackers and
+                                    secure
+                                    them like security experts.
+                                </small>
+                                <div class="course-price">
+                                    <span>1.200.000 đ</span>
+                                    <small>1.600.000 đ</small>
+                                </div>
+                                <div class="seller-label">Sale 10%</div>
+                                <div class="course-overlay">
+                                    <a href="details.html">
+                                        <h6 class="course-title">
+                                            The Complete Digital Marketing Course - 12 Courses in 1
+                                        </h6>
+                                        <div class="course-author">
+                                            <b>Lê Quang Song</b>
+                                            <span class="mx-1"> | </span>
+                                            <b>Development</b>
+                                        </div>
+                                        <div class="course-info">
+                                            <span><i class="fa fa-play-circle"></i> 180 lectures</span>
+                                            <span class="mx-1"> | </span>
+                                            <span><i class="fa fa-clock-o"></i> 40 hours</span>
+                                        </div>
+                                        <small class="course-content">
+                                            Become an ethical hacker that can hack computer systems like black hat
+                                            hackers and
+                                            secure them like security experts.
+                                        </small>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-danger text-white w-100">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="course">
+                                <img src="./img/html-css.jpg" />
+                                <h6 class="course-title">The Complete Digital Marketing Course - 12 Courses in 1</h6>
+                                <small class="course-content">
+                                    Become an ethical hacker that can hack computer systems like black hat hackers and
+                                    secure
+                                    them like security experts.
+                                </small>
+                                <div class="course-price">
+                                    <span>1.200.000 đ</span>
+                                    <small>1.600.000 đ</small>
+                                </div>
+                                <div class="seller-label">Sale 10%</div>
+                                <div class="course-overlay">
+                                    <a href="details.html">
+                                        <h6 class="course-title">
+                                            The Complete Digital Marketing Course - 12 Courses in 1
+                                        </h6>
+                                        <div class="course-author">
+                                            <b>Lê Quang Song</b>
+                                            <span class="mx-1"> | </span>
+                                            <b>Development</b>
+                                        </div>
+                                        <div class="course-info">
+                                            <span><i class="fa fa-play-circle"></i> 180 lectures</span>
+                                            <span class="mx-1"> | </span>
+                                            <span><i class="fa fa-clock-o"></i> 40 hours</span>
+                                        </div>
+                                        <small class="course-content">
+                                            Become an ethical hacker that can hack computer systems like black hat
+                                            hackers and
+                                            secure them like security experts.
+                                        </small>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-danger text-white w-100">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SELLER -->
+
+    <!-- BEGIN POPULAR -->
+    <section class="popular">
+        <div class="container-fluid">
+            <h3 class="title mt-0">Popular course</h3>
+            <div class="row" id="popularCourse">
+                <div class="col-md-2">
+                    <div class="course">
+                        <img src="./img/html-css.jpg" />
+                        <h6 class="course-title">The Complete Digital Marketing Course - 12 Courses in 1</h6>
+                        <small class="course-content">
+                            Become an ethical hacker that can hack computer systems like black hat hackers and secure
+                            them like security experts.
+                        </small>
+                        <div class="course-price">
+                            <span>1.200.000 đ</span>
+                        </div>
+                        <div class="course-overlay">
+                            <a href="details.html">
+                                <h6 class="course-title">
+                                    The Complete Digital Marketing Course - 12 Courses in 1
+                                </h6>
+                                <div class="course-author">
+                                    <b>Lê Quang Song</b>
+                                    <span class="mx-1"> | </span>
+                                    <b>Development</b>
+                                </div>
+                                <div class="course-info">
+                                    <span><i class="fa fa-play-circle"></i> 180 lectures</span>
+                                    <span class="mx-1"> | </span>
+                                    <span><i class="fa fa-clock-o"></i> 40 hours</span>
+                                </div>
+                                <small class="course-content">
+                                    Become an ethical hacker that can hack computer systems like black hat hackers and
+                                    secure them like security experts.
+                                </small>
+                            </a>
+                            <a href="#" class="btn btn-sm btn-danger text-white w-100">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="course">
+                        <img src="./img/html-css.jpg" />
+                        <h6 class="course-title">The Complete Digital Marketing Course - 12 Courses in 1</h6>
+                        <small class="course-content">
+                            Become an ethical hacker that can hack computer systems like black hat hackers and secure
+                            them like security experts.
+                        </small>
+                        <div class="course-price">
+                            <span>1.200.000 đ</span>
+                        </div>
+                        <div class="course-overlay">
+                            <a href="#details.html>
+                                <h6 class=" course-title">
+                                The Complete Digital Marketing Course - 12 Courses in 1
+                                </h6>
+                                <div class="course-author">
+                                    <b>Lê Quang Song</b>
+                                    <span class="mx-1"> | </span>
+                                    <b>Development</b>
+                                </div>
+                                <div class="course-info">
+                                    <span><i class="fa fa-play-circle"></i> 180 lectures</span>
+                                    <span class="mx-1"> | </span>
+                                    <span><i class="fa fa-clock-o"></i> 40 hours</span>
+                                </div>
+                                <small class="course-content">
+                                    Become an ethical hacker that can hack computer systems like black hat hackers and
+                                    secure them like security experts.
+                                </small>
+                            </a>
+                            <a href="#" class="btn btn-sm btn-danger text-white w-100">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="course">
+                        <img src="./img/html-css.jpg" />
+                        <h6 class="course-title">The Complete Digital Marketing Course - 12 Courses in 1</h6>
+                        <small class="course-content">
+                            Become an ethical hacker that can hack computer systems like black hat hackers and secure
+                            them like security experts.
+                        </small>
+                        <div class="course-price">
+                            <span>1.200.000 đ</span>
+                        </div>
+                        <div class="course-overlay">
+                            <a href="details.html">
+                                <h6 class="course-title">
+                                    The Complete Digital Marketing Course - 12 Courses in 1
+                                </h6>
+                                <div class="course-author">
+                                    <b>Lê Quang Song</b>
+                                    <span class="mx-1"> | </span>
+                                    <b>Development</b>
+                                </div>
+                                <div class="course-info">
+                                    <span><i class="fa fa-play-circle"></i> 180 lectures</span>
+                                    <span class="mx-1"> | </span>
+                                    <span><i class="fa fa-clock-o"></i> 40 hours</span>
+                                </div>
+                                <small class="course-content">
+                                    Become an ethical hacker that can hack computer systems like black hat hackers and
+                                    secure them like security experts.
+                                </small>
+                            </a>
+                            <a href="#" class="btn btn-sm btn-danger text-white w-100">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="course">
+                        <img src="./img/html-css.jpg" />
+                        <h6 class="course-title">The Complete Digital Marketing Course - 12 Courses in 1</h6>
+                        <small class="course-content">
+                            Become an ethical hacker that can hack computer systems like black hat hackers and secure
+                            them like security experts.
+                        </small>
+                        <div class="course-price">
+                            <span>1.200.000 đ</span>
+                        </div>
+                        <div class="course-overlay">
+                            <a href="details.html">
+                                <h6 class="course-title">
+                                    The Complete Digital Marketing Course - 12 Courses in 1
+                                </h6>
+                                <div class="course-author">
+                                    <b>Lê Quang Song</b>
+                                    <span class="mx-1"> | </span>
+                                    <b>Development</b>
+                                </div>
+                                <div class="course-info">
+                                    <span><i class="fa fa-play-circle"></i> 180 lectures</span>
+                                    <span class="mx-1"> | </span>
+                                    <span><i class="fa fa-clock-o"></i> 40 hours</span>
+                                </div>
+                                <small class="course-content">
+                                    Become an ethical hacker that can hack computer systems like black hat hackers and
+                                    secure them like security experts.
+                                </small>
+                            </a>
+                            <a href="#" class="btn btn-sm btn-danger text-white w-100">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="course">
+                        <img src="./img/html-css.jpg" />
+                        <h6 class="course-title">The Complete Digital Marketing Course - 12 Courses in 1</h6>
+                        <small class="course-content">
+                            Become an ethical hacker that can hack computer systems like black hat hackers and secure
+                            them like security experts.
+                        </small>
+                        <div class="course-price">
+                            <span>1.200.000 đ</span>
+                        </div>
+                        <div class="course-overlay">
+                            <a href="details.html">
+                                <h6 class="course-title">
+                                    The Complete Digital Marketing Course - 12 Courses in 1
+                                </h6>
+                                <div class="course-author">
+                                    <b>Lê Quang Song</b>
+                                    <span class="mx-1"> | </span>
+                                    <b>Development</b>
+                                </div>
+                                <div class="course-info">
+                                    <span><i class="fa fa-play-circle"></i> 180 lectures</span>
+                                    <span class="mx-1"> | </span>
+                                    <span><i class="fa fa-clock-o"></i> 40 hours</span>
+                                </div>
+                                <small class="course-content">
+                                    Become an ethical hacker that can hack computer systems like black hat hackers and
+                                    secure them like security experts.
+                                </small>
+                            </a>
+                            <a href="#" class="btn btn-sm btn-danger text-white w-100">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="course">
+                        <img src="./img/html-css.jpg" />
+                        <h6 class="course-title">The Complete Digital Marketing Course - 12 Courses in 1</h6>
+                        <small class="course-content">
+                            Become an ethical hacker that can hack computer systems like black hat hackers and secure
+                            them like security experts.
+                        </small>
+                        <div class="course-price">
+                            <span>1.200.000 đ</span>
+                        </div>
+                        <div class="course-overlay">
+                            <a href="details.html">
+                                <h6 class="course-title">
+                                    The Complete Digital Marketing Course - 12 Courses in 1
+                                </h6>
+                                <div class="course-author">
+                                    <b>Lê Quang Song</b>
+                                    <span class="mx-1"> | </span>
+                                    <b>Development</b>
+                                </div>
+                                <div class="course-info">
+                                    <span><i class="fa fa-play-circle"></i> 180 lectures</span>
+                                    <span class="mx-1"> | </span>
+                                    <span><i class="fa fa-clock-o"></i> 40 hours</span>
+                                </div>
+                                <small class="course-content">
+                                    Become an ethical hacker that can hack computer systems like black hat hackers and
+                                    secure them like security experts.
+                                </small>
+                            </a>
+                            <a href="#" class="btn btn-sm btn-danger text-white w-100">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container-fluid">
+            <h3 class="title mt-0">Top Categories</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <a class="category">
+                        <i class="fa fa-laptop"></i>
+                        <span>Development</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a class="category">
+                        <i class="fa fa-camera-retro"></i>
+                        <span>Photography</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a class="category">
+                        <i class="fa fa-bar-chart"></i>
+                        <span>Business</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a class="category">
+                        <i class="fa fa-desktop"></i>
+                        <span>IT & Software</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a class="category">
+                        <i class="fa fa-handshake-o"></i>
+                        <span>Marketing</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a class="category">
+                        <i class="fa fa-pencil-square-o"></i>
+                        <span>Design</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a class="category">
+                        <i class="fa fa-cutlery"></i>
+                        <span>Cooking</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a class="category">
+                        <i class="fa fa-music"></i>
+                        <span>Music</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="container-fluid">
+            <h3 class="title mt-3">What our students have to say</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feedback-item">
+                        <div class="feedback-info">
+                            <div class="feedback-img">
+                                <img src="./img/user1.jpg" alt="user1">
+                            </div>
+                            <b>Borivoje</b>
+                        </div>
+                        <div class="feedback-content">
+                            Elearning is a life saver. I don't have the time or money for a college education. My goal
+                            is to
+                            become a freelance web developer, and thanks to Udemy, I'm really close.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feedback-item">
+                        <div class="feedback-info">
+                            <div class="feedback-img">
+                                <img src="./img/user2.jpg" alt="user1">
+                            </div>
+                            <b>Borivoje</b>
+                        </div>
+                        <div class="feedback-content">
+                            Elearning is a life saver. I don't have the time or money for a college education. My goal
+                            is to
+                            become a freelance web developer, and thanks to Udemy, I'm really close.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feedback-item">
+                        <div class="feedback-info">
+                            <div class="feedback-img">
+                                <img src="./img/user3.jpg" alt="user1">
+                            </div>
+                            <b>Borivoje</b>
+                        </div>
+                        <div class="feedback-content">
+                            Elearning is a life saver. I don't have the time or money for a college education. My goal
+                            is to
+                            become a freelance web developer, and thanks to Udemy, I'm really close.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SIGN IN MODAL -->
+    <div class="modal" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Đăng nhập</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="emailgEmaill">Email</label>
+                            <input type="email" class="form-control" id="lgEmail">
+                        </div>
+                        <div class="form-group">
+                            <label for="lgPassword">Password</label>
+                            <input type="password" class="form-control" id="lgPassword">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" onclick="login()" class="btn btn-primary" data-dismiss="modal">Đăng nhập</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Thoát</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- SIGN UP MODAL -->
+    <div class="modal" id="signUpModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Đăng ký</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="rgName">Name</label>
+                            <input type="text" class="form-control" id="rgName">
+                        </div>
+                        <div class="form-group">
+                            <label for="rgEmail">Email</label>
+                            <input type="email" class="form-control" id="rgEmail">
+                        </div>
+                        <div class="form-group">
+                            <label for="rgPassword">Password</label>
+                            <input type="password" class="form-control" id="rgPassword">
+                        </div>
+                        <div class="form-group">
+                            <label for="rgConfirm">Confirm</label>
+                            <input type="password" class="form-control" id="rgConfirm">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="signUp()">Đăng ký</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Thoát</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-4 mt-4 text-center border-top">
+        <span>Copyright © 2019 Cybersoft, Inc.</span>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./lib/jquery/jquery.slim.min.js"></script>
+    <script src="./lib/popper.js/popper.min.js"></script>
+    <script src="./lib/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

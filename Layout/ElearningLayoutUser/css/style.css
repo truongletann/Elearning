@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+/* BEGIN HEADER */
+header .navbar-brand{
+    margin-top: -10px;
+    font-size: 30px;
+    margin-right: 30px;
+}
+header .dropdown .dropdown-toggle{
+    display: flex;
+    align-items: center;
+    color: #808080;
+}
+header .dropdown .dropdown-toggle::after{
+    display:none;
+}
+header .dropdown .dropdown-toggle span{
+    margin-bottom: 3px;
+}
+header .nav-search button{
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-left: 0;
+    border-radius: .25rem;
+}
+header .dropdown > a i,
+header .dropdown .dropdown-menu a i{
+    color: #999;
+}
+header .nav-cart i{
+    font-size: 20px;
+}
+/* END HEADER */
+
+/* BEGIN BREADCRUMB */
+.breadcrumb .breadcrumb-item a{
+     color: #6c757d;
+     text-decoration: none;
+     font-size: 14px;
+}
+.breadcrumb .breadcrumb-item::before{
+    content: ">"
+}
+.breadcrumb .breadcrumb-item:first-child::before{
+    content: ""
+}
+.breadcrumb .breadcrumb-item.active {
+    color: #b21f2d;
+    font-size: 14px;
+}
+/* END BREADCRUMB */
+
+/* BEGIN NAVTAB */
+.nav-tabs__custom{
+    border-bottom:0;
+}
+.nav-tabs__custom .nav-item .nav-link{
+    position: relative;
+    font-weight: bold;
+    color: #495057;
+    border: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.nav-tabs__custom .nav-item .nav-link.active::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 4px;
+    background: #ec5252;
+    display: block;
+    width: 78%;
+    margin: auto;
+}
+.tab-content__custom{
+    margin-top: 45px;
+}
+/* END NAVTAB */
+/* BEGIN BANNER */
+.course-banner{
+    background: linear-gradient(#29303B,#29303B,#29303B);
+    color: #fff;
+    padding: 50px 0;
+}
+.course-banner .banner-content{
+    width: 70%;
+}
+/* END BANNER */

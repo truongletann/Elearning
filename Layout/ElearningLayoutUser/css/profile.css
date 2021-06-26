@@ -1,0 +1,74 @@
+.picture .picture-wapper{
+    border: 1px solid #cacbcc;
+    box-shadow: 0 2px 0 rgba(255,255,255,.63), 0 1px 2px rgba(41,48,59,.15) inset;
+    padding: 18px;
+    margin-bottom: 20px;
+}
+.picture .picture-wapper .picture-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #f2f3f5;
+    padding: 2px;
+    height: auto;
+}
+
+/* BEGIN MY COURSE */
+.my-course-item{
+    text-decoration: none !important;
+    color: #000 !important;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 15px 0;
+    text-align: left;
+    background-color: #fff;
+    border:1px solid #fff;
+    box-shadow: 0 1px 0 1px #ddd;
+}
+.my-course-item:hover{
+    box-shadow: 0 1px 0 2px #dedede;
+}
+.my-course-item:hover .my-course-title{
+    color: #dc3545;
+}
+.my-course-item img{
+    width: 100%;
+}
+.my-course-item .my-course-title,
+.my-course-item .my-course-desc{
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    line-height: 20px;
+}
+.my-course-item .my-course-title{
+    padding-top: 10px;
+    font-weight: bold;
+    max-height: 50px;
+    font-size: 15px;
+}
+.my-course-item .my-course-desc{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 14px !important;
+    height: 60px;
+}
+.my-course-item .my-course-author{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+.my-course-item .my-course-author h6{
+    display: block;
+    padding-top: 10px;
+    border-top: 2px solid #007791;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-course-item .my-course-author h6 small:last-child{
+    color: #dc3545;
+    font-weight: bold;
+}
+/* END MY COURSE */
